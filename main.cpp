@@ -12,6 +12,7 @@ const int height = 30;
 int x, y, fruitX, fruitY, score;
 int tailX[100], tailY[100];
 int nTail;
+int a = 0;
 
 enum eDirection { STOP = 0, LEFT, RIGHT, UP, DOWN };
 eDirection dir;
